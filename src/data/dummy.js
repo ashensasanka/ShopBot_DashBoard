@@ -243,19 +243,19 @@ export const areaCustomSeries = [
 
 export const barChartData = [
   [
-    { x: 'Nugegoda', y: 46 },
-    { x: 'GBR', y: 27 },
-    { x: 'CHN', y: 26 },
+    { x: 'Colombo', y: 46 },
+    { x: 'Kandy', y: 27 },
+    { x: 'Matara', y: 26 },
   ],
   [
-    { x: 'Nugegoda', y: 37 },
-    { x: 'GBR', y: 23 },
-    { x: 'CHN', y: 18 },
+    { x: 'Colombo', y: 37 },
+    { x: 'Kandy', y: 23 },
+    { x: 'Matara', y: 18 },
   ],
   [
-    { x: 'Nugegoda', y: 38 },
-    { x: 'GBR', y: 17 },
-    { x: 'CHN', y: 26 },
+    { x: 'Colombo', y: 38 },
+    { x: 'Kandy', y: 17 },
+    { x: 'Matara', y: 26 },
   ],
 ];
 
@@ -264,7 +264,7 @@ export const barCustomSeries = [
     dataSource: barChartData[0],
     xName: 'x',
     yName: 'y',
-    name: 'Gold',
+    name: '2021',
     type: 'Column',
     marker: {
       dataLabel: {
@@ -278,7 +278,7 @@ export const barCustomSeries = [
     dataSource: barChartData[1],
     xName: 'x',
     yName: 'y',
-    name: 'Silver',
+    name: '2022',
     type: 'Column',
     marker: {
       dataLabel: {
@@ -292,7 +292,7 @@ export const barCustomSeries = [
     dataSource: barChartData[2],
     xName: 'x',
     yName: 'y',
-    name: 'Bronze',
+    name: '2023',
     type: 'Column',
     marker: {
       dataLabel: {
